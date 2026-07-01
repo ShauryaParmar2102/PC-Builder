@@ -18,25 +18,25 @@ A full-stack PC Builder web application that allows users to configure custom PC
 
 1️⃣ Download the Project
 
-Click the green Code button on GitHub
+1. Click the green Code button on GitHub
 
-Select Download ZIP
+2. Select Download ZIP
 
-Extract the ZIP file to your computer
+3. Extract the ZIP file to your computer
 
-Open the project folder in Visual Studio Code
+4. Open the project folder in Visual Studio Code
 
  2️⃣ Install Dependencies
 
- Open a terminal in the project folder (where package.json is located):
+ 1. Open a terminal in the project folder (where package.json is located):
 
- npm install
+ 2. npm install
 
- This will install all required packages and create the node_modules folder.
+ 3. This will install all required packages and create the node_modules folder.
 
 3️⃣ Start the Server
 
-npm run start
+1. npm run start
 
 # 4️⃣ Open the App
 
