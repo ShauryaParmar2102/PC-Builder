@@ -36,7 +36,7 @@ A full-stack PC Builder web application that allows users to configure custom PC
 
 3️⃣ Start the Server
 
-1. npm run start
+npm run start
 
 # 4️⃣ Open the App
 
