@@ -6,37 +6,37 @@ A full-stack PC Builder web application that allows users to configure custom PC
 
 # 🛠️ Tech Stack
 
-## 🎨 Frontend: HTML, CSS, JavaScript (Vanilla JS)
+🎨 Frontend: HTML, CSS, JavaScript (Vanilla JS)
 
-## 🖥️ Backend: Node.js + Express.js
+🖥️ Backend: Node.js + Express.js
 
-##📦 Data: JSON-based storage (or localStorage for drafts)
+📦 Data: JSON-based storage (or localStorage for drafts)
 
-## 🧱 Architecture: MVC (Model–View–Controller)
+🧱 Architecture: MVC (Model–View–Controller)
 
-# 🚀 How to Run the Project
+🚀 How to Run the Project
 
-## 1️⃣ Download the Project
+1️⃣ Download the Project
 
-## Click the green Code button on GitHub
+Click the green Code button on GitHub
 
-## Select Download ZIP
+Select Download ZIP
 
-## Extract the ZIP file to your computer
+Extract the ZIP file to your computer
 
-## Open the project folder in Visual Studio Code
+Open the project folder in Visual Studio Code
 
-# 2️⃣ Install Dependencies
+ 2️⃣ Install Dependencies
 
-## Open a terminal in the project folder (where package.json is located):
+ Open a terminal in the project folder (where package.json is located):
 
-## npm install
+ npm install
 
-## This will install all required packages and create the node_modules folder.
+ This will install all required packages and create the node_modules folder.
 
-# 3️⃣ Start the Server
+3️⃣ Start the Server
 
-## npm run start
+npm run start
 
 # 4️⃣ Open the App
 
