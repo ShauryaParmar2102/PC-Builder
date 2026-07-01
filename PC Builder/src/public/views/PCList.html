@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PC List</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+  <h1>My Builds 💻</h1>
+
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li><a href="/views/PCList.html" class="active">PC List</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <div class="search-bar">
+      <input type="text" id="pcSearch" placeholder="Search PCs..." />
+
+      <select id="sortFilter">
+        <option value="">Sort By</option>
+      </select>
+
+      <button id="newPCButton" onclick="window.location.href='/views/PCBuilder.html'">
+        Create New PC
+      </button>
+    </div>
+
+    <div id="pcContainer"></div>
+
+  </main>
+
+  <script type="module">
+    import { PCListController } from '../controllers/PCListController.mjs';
+
+    window.addEventListener("DOMContentLoaded", () => {
+      PCListController.init();
+    });
+  </script>
+
+</body>
+</html>

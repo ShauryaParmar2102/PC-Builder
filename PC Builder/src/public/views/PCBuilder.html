@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Builder</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+<h1>PC Builder 💻</h1>
+
+<nav class="navbar">
+    <ul class="nav-list">
+        <li><a href="PCList.html">PC List</a></li>
+    </ul>
+</nav>
+
+<form id="pcForm">
+
+    <label>PC Name:</label>
+    <input type="text" id="name" required><br>
+
+    <label>CPU:</label>
+    <select id="cpu"></select><br>
+
+    <label>GPU:</label>
+    <select id="gpu"></select><br>
+
+    <label>RAM:</label>
+    <select id="ram"></select><br>
+
+    <label>Storage:</label>
+    <select id="storage"></select><br>
+
+    <label>Motherboard:</label>
+    <select id="motherboard"></select><br>
+
+    <label>PSU:</label>
+    <select id="psu"></select><br>
+
+    <label>Case:</label>
+    <select id="case"></select><br>
+
+    <fieldset id="extrasFieldset">
+        <legend>Extras:</legend>
+    </fieldset>
+
+    <button type="submit">Save PC Build</button>
+
+</form>
+
+<div id="preview"></div>
+
+<script type="module">
+    import { PCBuilderController } from "../controllers/PCBuilderController.mjs";
+    PCBuilderController.init();
+</script>
+
+</body>
+</html>
