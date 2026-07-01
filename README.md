@@ -38,7 +38,7 @@ A full-stack PC Builder web application that allows users to configure custom PC
 
 npm run start
 
-# 4️⃣ Open the App
+4️⃣ Open the App
 
 ## Go to your browser:
 
