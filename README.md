@@ -42,4 +42,4 @@ A full-stack PC Builder web application that allows users to configure custom PC
 
 ## Go to your browser:
 
-# http://localhost:8000
+http://localhost:8000
