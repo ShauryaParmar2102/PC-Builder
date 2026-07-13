@@ -6,7 +6,7 @@ A full-stack PC Builder web application that allows users to configure custom PC
 
 # 🛠️ Tech Stack
 
-🎨 Frontend: HTML, CSS, JavaScript (Vanilla JS)
+🎨 Frontend: HTML, CSS, JavaScript
 
 🖥️ Backend: Node.js + Express.js
 
